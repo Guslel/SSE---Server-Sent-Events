@@ -1,0 +1,27 @@
+{
+  "name": "sse-test-project",
+  "version": "1.0.0",
+  "description": "Server-Sent Events (SSE) testing project with Fastify, web UI and Node.js client",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node client.js"
+  },
+  "keywords": [
+    "sse",
+    "server-sent-events",
+    "fastify",
+    "real-time",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.25.2"
+  },
+  "devDependencies": {
+    "eventsource": "^2.0.2"
+  }
+}
